@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/public/',
+  base: '/random-loadout-generator-far-cry-5/',
   plugins: [
     vue(),
     vueDevTools(),
