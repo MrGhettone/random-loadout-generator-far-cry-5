@@ -8,6 +8,9 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "installConfig": {
+    "legacy-peer-deps": true
+  },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
     "vue": "^3.5.30",
