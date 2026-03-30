@@ -1,15 +1,24 @@
 {
-  "name": "random-loadout-generator-far-cry-5",
-  "version": "1.0.0",
-  "description": "Far Cry 5 Random Loadout Generator",
+  "name": "random-loadout-generator",
+  "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "npx serve .",
-    "build": "echo 'Static site - no build needed'"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@vercel/analytics": "^1.4.1"
+    "@vercel/analytics": "^2.0.1",
+    "vue": "^3.5.30",
+    "vue-router": "^5.0.3"
   },
-  "author": "MrGhettone",
-  "license": "MIT"
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.4",
+    "vite": "^7.3.1",
+    "vite-plugin-vue-devtools": "^8.0.7"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
 }
