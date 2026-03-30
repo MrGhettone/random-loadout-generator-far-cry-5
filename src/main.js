@@ -1,9 +1,11 @@
-import './assets/main.css'
+import './assets/scss/main.scss';
+// import 'bootstrap';
 
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import { inject } from '@vercel/analytics';
+
 
 inject();
 
